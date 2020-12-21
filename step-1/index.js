@@ -9,7 +9,7 @@ function calcTip() {
     // om det inte är 50-300 så lägger JS till 15%
     tip = billAmount * 1.15;
   }
-  // säger till JS att jag vill veta vad fee blir med return
+  // säger till JS att jag vill veta vad tip blir med return
   return tip;
 }
 // säger till att JS ska utgå från billAmount vilket i detta fall blir 100
